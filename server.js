@@ -1,6 +1,13 @@
 var btnsubmit= document.querySelector("#btn-submit")
 
-btnsubmit.addEventListener("click", function clickEventHandler(){
+btnsubmit.addEventListener("click", displayDate)
+document.getElementById("btn-submit")
+{
 
-    console.log("clicked")
-})
+    //console.log("clicked")
+}
+//document.getElementById("btn-submit").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
